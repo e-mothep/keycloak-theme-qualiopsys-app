@@ -1,0 +1,72 @@
+/* FORM BUTTONS */
+div#kc-form-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* SETTINGS CONTAINER */
+div.login-pf-settings {
+	justify-content: center !important;
+}
+
+/* CONFIG TOTP PAGE */
+form#kc-totp-settings-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.form-group {
+		width: 100%;
+	}
+} 
+
+/* FORM OPTIONS WRAPPER */
+.pf-c-form-options-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* INFO PAGE */
+div#kc-info-message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* CUSTOM */
+.spacing-md {
+	margin: 1em;
+	
+	&.left {
+		margin: 0;
+		margin-left: 1em;
+	}
+}
+
+.instruction {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.color-text {
+	color: var(--color-text) !important;
+}
+
+.color-secondary {
+	color: var(--color-secondary) !important;
+}
+
+.verify-email-info-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.link-underline {
+	text-decoration: underline;
+}

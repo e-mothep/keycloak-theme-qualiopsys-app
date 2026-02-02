@@ -1,0 +1,31 @@
+.pf-c-form-control[type="text"], .pf-c-form-control[type="password"] {
+	background: none;
+	border: 1px solid hsl(0, 0%, 25%);
+	border-radius: 30px;
+	padding: 0 20px;
+}
+.pf-c-form-control {
+	height: var(--pf-c-form-control-height) !important;
+}
+
+.form-group {
+	position: relative;
+}
+
+.pf-c-form__label, .pf-c-form__label-text {
+	color: hsl(0, 0%, 25%);
+	position: absolute;
+	top: -13px;
+	left: 20px;
+	background: var(--color-surface);
+	padding: 0 4px;
+}
+
+
+.pf-c-form-control:focus-visible {
+	outline: none;
+}
+
+.required {
+	color: var(--color-text);
+}

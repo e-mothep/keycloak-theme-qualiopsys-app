@@ -1,0 +1,37 @@
+div.pf-c-alert {
+	border-top: none;
+	margin-bottom: 1em;
+	background: none;
+	padding: 0;
+	font-size: var(--font-size-md);
+
+	span {
+		color: var(--color-text);
+		text-align: center;
+	}	
+
+	&.alert-error {
+		span {
+			color: var(--color-error) !important;
+		}
+	}
+
+	&.alert-warning {
+		background-color: var(--color-secondary) !important;
+	}
+
+	&.alert-info, &.alert-success {
+		span {
+			color: var(--color-primary);
+		}
+	}
+}
+
+/* .luna-alert { */
+/*   background-color: var(--color-error) !important; */
+/*   color: white !important; */
+/*   font-size: 1rem; */
+/*   padding: 16px; */
+/*   text-align: center; */
+/*   margin-bottom: 1em; */
+/* } */
