@@ -1,6 +1,6 @@
 {
 	"themes": [{
 		"name": "qualiopsys-theme",
-		"types": ["login"]
+		"types": ["login", "email"]
 	}]
 }
